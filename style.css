@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 40px;
+}
+
+.username{
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+    
+}
+
+.username .ball{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+main{
+    width: 80%;
+    height: 50%;
+    background-color: grey;
+    display: flex;
+    margin-top: 20px;
+   justify-content: flex-end;
+}
+
+ button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    align-self: flex-start;
+    margin: 20px 40px;
+    color: blue;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 70px;
+    height: 10px;
+    background-color: white;
+    align-self: center;
+
+}
