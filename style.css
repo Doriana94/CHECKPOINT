@@ -15,7 +15,7 @@ body{
     width: 20%;
     height: 100%;
     background-color: grey;
-    
+    margin: 10px;
 }
 
 .username .ball{
@@ -23,38 +23,73 @@ body{
     height: 4rem;
     border-radius: 50%;
     background-color: white;
-    margin-left: 70px;
+    margin-left: 54px;
     margin-top: 20px;
 }
 
 main{
-    width: 80%;
-    height: 50%;
+    width: 80vw;
+    height: 50vh;
     background-color: grey;
     display: flex;
-    margin-top: 20px;
-   justify-content: flex-end;
+    margin-top: 30px;
+    flex-direction: column;
+
 }
 
- button{
-    width: 100px;
-    height: 30px;
+button{
+    width: 120px;
+    height: 40px;
     border-radius: 5px;
     background-color: white;
-    border: none;
-    align-self: flex-start;
-    margin: 20px 40px;
     color: blue;
+    border: none;
+    margin: 25px 40px;
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.search{
-    display: flex;
-    justify-content: center;
-}
 input{
-    width: 70px;
-    height: 10px;
+    width: 120px;
+    height: 20px;
     background-color: white;
     align-self: center;
-
+    border: none;
+    text-align: center;
+  
 }
+
+.disabled{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: blue;
+    border: none;
+    align-self: flex-start;
+    margin: 180px 0 25px 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer{
+    width: 80vw;
+    height: 45vh;
+    background-color: grey;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+h1, h2{
+ margin: 0 150px 0  ;
+ text-decoration:underline;
+}
+
